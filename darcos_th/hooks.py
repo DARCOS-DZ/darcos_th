@@ -8,9 +8,11 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "contact@darcos.dz"
 app_license = "MIT"
-
+app_logo_url = "/assets/darcos_th/images/logo_d.png"
 
 app_include_css = "/assets/darcos_th/css/darcos_th.css"
+web_include_css = "/assets/darcos_th/css/darcos_th.css"
+
 # Includes in <head>
 # ------------------
 
