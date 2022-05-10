@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include darcos_th *.css
+recursive-include darcos_th *.csv
+recursive-include darcos_th *.html
+recursive-include darcos_th *.ico
+recursive-include darcos_th *.js
+recursive-include darcos_th *.json
+recursive-include darcos_th *.md
+recursive-include darcos_th *.png
+recursive-include darcos_th *.py
+recursive-include darcos_th *.svg
+recursive-include darcos_th *.txt
+recursive-exclude darcos_th *.pyc
