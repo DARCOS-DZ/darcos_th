@@ -1,0 +1,47 @@
+.btn.btn-primary {
+  text-align: center;
+  background-image: linear-gradient(to right, #709dd3, #a9c4e5);
+  box-shadow: 0 4px 12px 0 rgba(112, 157, 211, 0.75);
+}
+
+.standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected {
+  background-image: linear-gradient(to right, #709dd3, #a9c4e5);
+  box-shadow: 0 4px 12px 0 rgba(112, 157, 211, 0.75);
+}
+
+.standard-sidebar .standard-sidebar-item.selected:hover, .desk-sidebar .standard-sidebar-item.selected:hover, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected:hover {
+  background-image: linear-gradient(to right, #709dd3, #a9c4e5);
+  box-shadow: 0 4px 10px 0 rgba(112, 157, 211, 0.50);
+}
+
+.navbar{
+  background-image: linear-gradient(to right, #709dd3, #a9c4e5);
+}
+
+.standard-sidebar .standard-sidebar-item:hover, .desk-sidebar .standard-sidebar-item:hover, .search-dialog .search-results .search-sidebar .standard-sidebar-item:hover {
+  box-shadow: 0 1.5px 3px rgba(0,0,0,0.05);
+  background: transparent;
+  z-index: 0;
+}
+
+.standard-sidebar .standard-sidebar-item.selected a, .desk-sidebar .standard-sidebar-item.selected a, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected a {
+color: white;
+}
+
+div.desk-sidebar-item.standard-sidebar-item.selected > a > span.sidebar-item-icon > svg {
+  --icon-stroke: white;
+  stroke-width: 1.5px;
+}
+
+.page-head {
+  box-shadow: 0 -10px 26px 0 rgb(65 132 234 / 75%) ;
+}
+
+:root,
+[data-theme=light] {
+  --bg-color: white;
+}
+
+[data-theme=dark] {
+  --bg-color: #161a1f;
+}

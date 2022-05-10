@@ -9,6 +9,8 @@ app_color = "grey"
 app_email = "contact@darcos.dz"
 app_license = "MIT"
 
+
+app_include_css = "/assets/darcos_th/css/darcos_th.css"
 # Includes in <head>
 # ------------------
 
