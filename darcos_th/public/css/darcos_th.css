@@ -37,6 +37,15 @@ div.desk-sidebar-item.standard-sidebar-item.selected > a > span.sidebar-item-ico
   box-shadow: 0 -10px 26px 0 rgb(65 132 234 / 75%) ;
 }
 
+.standard-sidebar-item.selected span svg {
+  --icon-stroke: white !important;
+  stroke-width: 1.5px !important;
+}
+
+.standard-sidebar-item.selected {
+color: white !important;
+}
+
 :root,
 [data-theme=light] {
   --bg-color: white;
