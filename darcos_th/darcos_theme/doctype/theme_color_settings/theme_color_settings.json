@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-23 16:44:57.767487",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "dark",
+  "medium",
+  "primary",
+  "primary_gradient"
+ ],
+ "fields": [
+  {
+   "default": "#161e29",
+   "fieldname": "dark",
+   "fieldtype": "Color",
+   "label": "Dark"
+  },
+  {
+   "default": "#435e7e",
+   "fieldname": "medium",
+   "fieldtype": "Color",
+   "label": "Medium"
+  },
+  {
+   "default": "#709dd3",
+   "fieldname": "primary",
+   "fieldtype": "Color",
+   "label": "Primary"
+  },
+  {
+   "default": "#709dd3",
+   "fieldname": "primary_gradient",
+   "fieldtype": "Color",
+   "label": "Primary gradient"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-09-24 08:27:44.362863",
+ "modified_by": "Administrator",
+ "module": "Darcos theme",
+ "name": "Theme color settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

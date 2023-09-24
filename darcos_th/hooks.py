@@ -11,6 +11,7 @@ app_license = "MIT"
 app_logo_url = "/assets/darcos_th/images/logo_d.png"
 
 app_include_css = "/assets/darcos_th/css/darcos_th.css"
+app_include_js = "/assets/darcos_th/js/darcos_th.js"
 web_include_css = "/assets/darcos_th/css/darcos_th.css"
 
 # Includes in <head>
