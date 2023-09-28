@@ -5,14 +5,16 @@ document.addEventListener('DOMContentLoaded', function () {
             frappe.db.get_single_value('Theme color settings', 'dark'),
             frappe.db.get_single_value('Theme color settings', 'medium'),
             frappe.db.get_single_value('Theme color settings', 'primary'),
-            frappe.db.get_single_value('Theme color settings', 'primary_gradient')
+            frappe.db.get_single_value('Theme color settings', 'primary_gradient'),
+            frappe.db.get_single_value('Theme color settings', 'print_primary_color')
         ])
-        .then(([dark, medium, primary, primary_gradient]) => {
+        .then(([dark, medium, primary, primary_gradient, print_primary_color]) => {
             // Set the CSS variables with the fetched values
             document.documentElement.style.setProperty('--darcos-dark', dark);
             document.documentElement.style.setProperty('--darcos-medium', medium);
             document.documentElement.style.setProperty('--darcos-primary', primary);
             document.documentElement.style.setProperty('--darcos-primary-gradient', primary_gradient);
+            document.documentElement.style.setProperty('--darcos-print-primary', print_primary_color);
 
             // Now that the values are set, you can safely continue with other code.
             // For example, you can trigger the 'load' event manually if needed.

@@ -10,7 +10,8 @@
   "dark",
   "medium",
   "primary",
-  "primary_gradient"
+  "primary_gradient",
+  "print_primary_color"
  ],
  "fields": [
   {
@@ -32,16 +33,22 @@
    "label": "Primary"
   },
   {
-   "default": "#709dd3",
+   "default": "#9dd370",
    "fieldname": "primary_gradient",
    "fieldtype": "Color",
    "label": "Primary gradient"
+  },
+  {
+   "default": "#709dd3",
+   "fieldname": "print_primary_color",
+   "fieldtype": "Color",
+   "label": "Print primary color"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-09-24 08:27:44.362863",
+ "modified": "2023-09-28 14:13:00.679935",
  "modified_by": "Administrator",
  "module": "Darcos theme",
  "name": "Theme color settings",
